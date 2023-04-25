@@ -1,0 +1,17 @@
+.background-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+}
+.content3{
+    position: fixed;
+    z-index: 10;
+    top: 38%;
+    left: 18%;
+    color: #f1f1f1;
+    width: fit-content;
+}

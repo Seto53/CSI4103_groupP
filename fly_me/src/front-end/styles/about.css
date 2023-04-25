@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.about-section {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: -10em;
+}
+.contentA{
+    margin-left: 3em;
+    text-align: justify;
+    margin-right: 3em;
+    font-family: 'Digital-7', 'Courier New';
+}
+
+.about-section h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    width: 50%;
+    text-align: center;
+}

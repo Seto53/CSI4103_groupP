@@ -1,0 +1,79 @@
+.map {
+    height: 100vh;
+}
+
+.alert {
+    position: fixed;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 60%;
+}
+
+.bus-track-alert-progress {
+    position: fixed;
+    bottom: 20%;
+    left: 90%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 60%;
+}
+
+.bus-track-alert-button {
+    top: 25%;
+}
+
+.bus-track-alert-bar {
+
+}
+
+.help-icon-container {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    transform: scale(2);
+}
+
+#navbar-line {
+    height: 0.5em;
+    width: 100%;
+    background-color: #ef2101e4;
+}
+
+.input-select {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: white;
+    width: 50%;
+}
+
+.error-alert-close-button {
+    position: absolute;
+    right: 3%;
+    top: 14%;
+}
+
+.stop-marker {
+
+}
+
+@media (min-width: 320px) {
+    .input-select {
+        width: 90%;
+    }
+}
+
+@media (min-width: 641px) {
+    .input-select {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .input-select {
+        width: 50%;
+    }
+}

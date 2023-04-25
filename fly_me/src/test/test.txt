@@ -1,0 +1,77 @@
+<Desktop view>
+    home page
+        when user visist the home
+        the user should see a small description of what flyme is
+        and a <Button> with text "get started"
+
+    flights page
+        when user is on home page and clicks on get started <Buttom> or flight from the navbar
+        user will be taken to flights page
+        then he will see all flight(landed or not)
+
+    flight_details popup
+        when user clicks on one of the flights on flights page
+        then the user will see a pop up with flight details and button to see hotels to the destination
+
+    hotels page
+        when user clicks hotel <Button> from the navbar
+        then the user will be redirected to hotels page
+        the user can sort hotels by name or rating by clicking <the respective buttons>
+
+    hotel country page
+        when user clicks view hotel <Button> from the flight details
+        then the user will be redirected to hotel country page with hotels of the destination
+        the user can sort hotels by name or rating by clicking <the respective buttons>
+    
+    navbar
+        when the user clicks home <button>
+        then the user will be redirected to the home page
+        when the user clicks flights <button>
+        then the user will be redirected to the flights page
+        when the user clicks hotels <button>
+        then the user will be redirected to the hotels page
+        when the user clicks about <button>
+        then the user will be redirected to the about page
+
+<Mobile view>
+    home page
+        when user visist the home
+        the user should see a small description of what flyme is
+        and a <Button> with text "get started"
+
+    flights page
+        when user is on home page and clicks on get started <Buttom> or flight from the navbar
+        user will be taken to flights page
+        then he will see all flight(landed or not)
+
+    flight_details popup
+        when user clicks on one of the flights on flights page
+        then the user will see a pop up with flight details and button to see hotels to the destination
+
+    hotels page
+        when user clicks the <burger menu>
+        then a sidebar will slide from the left
+        when the user clicks hotel <Button> from the side bar
+        then the user will be redirected to hotels page
+        the user can sort hotels by name or rating by clicking <the respective buttons>
+
+    hotel country page
+        when user clicks view hotel <Button> from the flight details
+        then the user will be redirected to hotel country page with hotels of the destination
+        the user can sort hotels by name or rating by clicking <the respective buttons>
+    
+    burger menu
+        when the user clicks the <Burger button>
+        then the slide menu will show
+        when the user clicks again while the slide is visible
+        then the side bar will be hidden
+
+    side bar
+        when the user clicks home <button>
+        then the user will be redirected to the home page
+        when the user clicks flights <button>
+        then the user will be redirected to the flights page
+        when the user clicks hotels <button>
+        then the user will be redirected to the hotels page
+        when the user clicks about <button>
+        then the user will be redirected to the about page
